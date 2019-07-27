@@ -15,6 +15,8 @@ public class MobileTest {
         options.addArguments("--headless");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
+        options.setExperimentalOption("useAutomationExtension", false);
+
 
 
         driver.manage().window().fullscreen();
